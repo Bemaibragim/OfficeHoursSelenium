@@ -24,5 +24,6 @@ public class TitleAndUrlCheck {
             System.out.println("Failed");
         }
         driver.close();
+        driver.quit();
     }
 }
